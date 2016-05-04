@@ -1,4 +1,12 @@
+T227_db:
+  image: daocloud.io/library/postgres
+  ports:
+    - "5432:5432"
+  environment:
+    - POSTGRES_PASSWORD=mypassword
 t227_web:
   build: .
   ports:
     - "8360:8360"
+  links:
+    - T227_db
