@@ -1,4 +1,4 @@
-FROM index.alauda.cn/tutum/node
+FROM index.docker.io/library/node
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
