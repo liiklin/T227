@@ -1,8 +1,12 @@
-FROM index.docker.io/dashersw/node-pm2
+FROM daocloud.io/library/node:0.12.13 
+RUN node -v
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 COPY package.json /usr/src/app/
+#安装最新版本pm2模块
+cnpm install pm2@latest -g
+#安装依赖
 RUN cnpm install
 COPY . /usr/src/app
 ENV PORT 8360

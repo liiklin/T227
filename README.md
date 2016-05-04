@@ -16,8 +16,8 @@ npm start
 
 采用 docker 部署的方法
 ```
-docker build -t t227 .
-docker-compose up -d
+docker build -t t227_web -f docker/Dockerfile .
+docker-compose -f docker/docker-compose.yml up -d
 ```
 启动后需要执行初始化sql.
 

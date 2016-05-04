@@ -1,8 +1,8 @@
 {
   "apps": [{
-    "name": "D:codeD:codeT227",
+    "name": "T227",
     "script": "www/production.js",
-    "cwd": "D:\code\T227",
+    "cwd": "/usr/src/app/",
     "exec_mode": "cluster",
     "instances": 0,
     "max_memory_restart": "1G",
