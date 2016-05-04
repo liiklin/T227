@@ -1,4 +1,4 @@
-FROM daocloud.io/node:5.11.0-onbuild
+FROM index.alauda.cn/tutum/node
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
