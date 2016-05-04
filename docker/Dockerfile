@@ -1,5 +1,4 @@
-FROM daocloud.io/library/node:0.12.13 
-RUN node -v
+FROM daocloud.io/library/node:5.11.0
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
