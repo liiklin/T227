@@ -1,4 +1,4 @@
-FROM index.docker.io/library/node
+FROM daocloud.io/library/node:5.9.0
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
