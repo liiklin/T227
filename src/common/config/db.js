@@ -21,7 +21,7 @@ export default {
     postgresql: {
       host: 'db',
       port: '5432',
-      database: 'laws',
+      database: 'postgres',
       user: 'postgres',
       password: 'mypassword',
       prefix: '',
