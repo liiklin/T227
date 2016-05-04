@@ -12,4 +12,4 @@ ENV PORT 8360
 EXPOSE 8360
 # 线上环境
 RUN npm run compile
-ENTRYPOINT pm2 startOrReload pm2.json
+ENTRYPOINT pm2 start www/production.js --no-daemon

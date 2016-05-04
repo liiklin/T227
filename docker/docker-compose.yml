@@ -1,4 +1,4 @@
 t227_web:
-  build: ../
+  build: .
   ports:
     - "8360:8360"
