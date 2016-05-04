@@ -2,5 +2,3 @@ t227_web:
   build: .
   ports:
     - "8360:8360"
-  links:
-    - db
