@@ -1,7 +1,7 @@
 ### 开发
 下载安装nodejs开发环境后，克隆代码
 ```
-git clone https://liiklin@bitbucket.org/liiklin/signatureweb.git
+git clone https://github.com/liiklin/T227.git
 ```
 
 修改数据库连接，文件在/src/common/config/db.js
@@ -16,7 +16,7 @@ npm start
 
 采用 docker 部署的方法
 ```
-docker build -t signatureweb .
+docker build -t t227 .
 docker-compose up -d
 ```
 启动后需要执行初始化sql.
