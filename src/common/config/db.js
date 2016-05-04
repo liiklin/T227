@@ -19,7 +19,7 @@ export default {
 
     },
     postgresql: {
-      host: 'T227_db',
+      host: '0.0.0.0',
       port: '5432',
       database: 'postgres',
       user: 'postgres',
